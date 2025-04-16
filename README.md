@@ -1,4 +1,4 @@
-## About ❓
+## ❓ About
 
 Learnbot is A Discord Bot scripted in Python that is designed to assist learning the Japanese Character system.
 It can generate simple multiple choice exercise cards that can simply be solved by reacting with the right emoji.
@@ -10,7 +10,7 @@ This Bot will not be updated as I am curently working on a new Version that has 
 
 ---
 
-## Bot Setup ⚙️
+## ⚙️ Bot Setup
 
 To use this bot yourself yourself you need a Discord Bot and it's Token
 
@@ -24,7 +24,7 @@ The Bot will work on all Servers on which it has required permissions and in DMs
 
 ---
 
-## How to use ▶️
+## ▶️ How to use
 
 How to practice Japanese with Schneckbot
 
