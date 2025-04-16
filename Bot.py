@@ -9,11 +9,9 @@ from PairLists import *
 
 
 Keys = open("Keys.txt","rt")
-OPENAI_API_KEY = Keys.readline().strip("\n")
 SCHNECKBOT_TOKEN = Keys.readline().strip("\n")
 
 
-client = OpenAI(api_key = OPENAI_API_KEY)
 
 
 description = "I can see everything you do. Do not underestimate me."
