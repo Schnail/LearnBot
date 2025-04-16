@@ -1,12 +1,17 @@
+# LearnBot
+
 ## ❓ About
 
+```text
 Learnbot is A Discord Bot scripted in Python that is designed to assist learning the Japanese Character system.
 It can generate simple multiple choice exercise cards that can simply be solved by reacting with the right emoji.
 
 The Bot can track a users progress and generates exercises designed to work on the learners weaknesses.
 Exercise generation has changing parameters that allow it to generate Exercises that are often answerd wrong more regularly.
 
-This Bot will not be updated as I am curently working on a new Version that has more organized Datastructures, makes better use of the Discord.py functionality and runs with more efficient memory.
+This Bot will not be updated as I am curently working on a new Version that has more organized Datastructures,
+makes better use of the Discord.py functionality and runs with more efficient memory.
+```
 
 ---
 
@@ -54,25 +59,34 @@ Valid types are:
 
 **Solve Exercise**
 
-You can solve the card by reacting to the card with the corresponding Number Emoji. Reacting with ❓ will solve the Card without affecting your Userstats. After resolving a card you can generate a new Card of the same Type by reacting with 🔁 to the resolve Notification.
+```text
+You can solve the card by reacting to the card with the corresponding Number Emoji.
+Reacting with ❓ will solve the Card without affecting your Userstats.
+After resolving a card you can generate a new Card of the same Type by reacting with 🔁 to the resolve Notification.
+```
 
 **Practice Kanji**
 
+```text
 If you are practicing Kanji you will have the option to react with 🔎 to recive information on the Kanji's different readings.
+```
 
 **Report Exercise**
 
-If a Exercise seems like it has an Error of any kind, you can report it by reacting with ❗ on the resolve Notification so you can take a look at it. All this does is save the message ID to Cache/Reported/. This doesn't work anymore if you already generated a new Card.
+```text
+If a Exercise seems like it has an Error of any kind, you can report it by reacting with ❗ on the resolve Notification so you can take a look at it.
+All this does is save the message ID to Cache/Reported/. This doesn't work anymore if you already generated a new Card.
+```
 
 
 ## !profile
 
 Alternative commands: !user, !stats
 
-Shows the given users Profile.
-Shows your Profile if no user is specified.
-
+```text
+Shows the given users Profile. Shows your Profile if no user is specified.
 A users profile contains statistics for their learning progress like the amount of learned characters and finished exercises.
+```
 
 ---
 
